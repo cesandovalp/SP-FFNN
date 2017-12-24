@@ -1,0 +1,81 @@
+@import 'color';
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 80%;
+}
+
+#app {
+  background: #f0f0f0;
+}
+
+.container_game {
+  width: 100vw !important;
+  max-width: 100% !important;
+  float: left;
+}
+
+.node { }
+.link { stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+
+.subsection {
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 20px;
+}
+
+.custom_button {
+  vertical-align:middle;
+  text-align:center;
+  border:1px solid #000000;
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+  background-color:#fff;
+  color:#CCCCCC;
+}
+
+.summary {
+  width: 30%;
+  float: left;
+  visibility: hidden;
+  padding-left: 2%;
+  border-style: solid;
+  border-width: thin;
+  border-left: none;
+}
+
+.table-wrapper {
+  position:relative;
+  border-style: solid;
+  border-width: thin;
+  border-top: none;
+  border-left: none;
+}
+.table-scroll {
+  height:60vh;
+  overflow:auto;
+}
+.table-wrapper table {
+  width:100%;
+}
+.table-wrapper table * {
+  background:#fff;
+  color:black;
+}
+.table-wrapper table thead th .text {
+  position:absolute;
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid red;
+}
